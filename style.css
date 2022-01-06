@@ -4,7 +4,7 @@ body {
 }
 .first-section {
     display: flex;
-    padding-top: 100px;
+    padding: 100px 0 50px;
 }
 .head-title {
     font-family: 'Luxurious Roman', cursive;
@@ -44,4 +44,27 @@ a {
 .center-heading {
     text-align: center;
     font-size: 50px;
+}
+.mission {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+.mission img {
+    width: 100px; 
+}
+.mission-parts {
+    border-radius: 25px;
+    width: 25%;
+    padding: 20px;
+    text-align: justify;
+}
+#left-part {
+    background-color: #fde2e4ab;
+}
+#middle-part {
+    background-color: #caffbf83;
+}
+#right-part {
+    background-color: #9bf7ff83;
 }
